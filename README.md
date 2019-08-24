@@ -5,23 +5,23 @@ Circuit is essentially a custom Arduino with ATMEGA328P.
 This is one of my first "major" projects (circa 2012), and a lot has been learnt since then.
 
 Additional features (because why not)
-- Fan to circulate air over the cooling radiator
--- Does not run the fan when the door is open
--- Gives an old and basic fridge more modern and expensive features.
-- Door open/ajar reminder (buzzer)
-- Anti-freeze / defroster (since the old fridge was a "frost-free" type.
-- Does not start the compressor until the door is closed
+* Fan to circulate air over the cooling radiator
+  * Does not run the fan when the door is open
+  * Gives an old and basic fridge more modern and expensive features.
+* Door open/ajar reminder (buzzer)
+* Anti-freeze / defroster (since the old fridge was a "frost-free" type.
+* Does not start the compressor until the door is closed
 
 Project notes:
-- Circuit and PCB done with EagleCAD -- Only learnt basic KiCAD in a later project.
-- Done with Code::Blocks (painful setup, but I wanted a half decent IDE. It should convert back to Arduno IDE fairly easily.
-- In hindsight:
--- Software: not using the default Arduino bootloader may be better (doesn't pulse the pins on boot); (OptiBoot?)
--- Hardware: drive the transistors, from the MCU, via a resistor and have a pulldown
--- Hardware: There are nice modular 110V/220V mains to 12V modules that could shrink the total install package size.
--- Hardware: add simple debounce circuit to door switch. Maybe even a gated debounce.
--- Hardware: The fan turned out to be annoying in terms of humming sound. With a differnt type of fan and a custom 3D printed baffle, the idea could be promissing.
--- Hardware: Maybe port to a more modern cheap platform (ESP8266/ESP32) and/or surface mount components
+* Circuit and PCB done with EagleCAD -- Only learnt basic KiCAD in a later project.
+* Done with Code::Blocks (painful setup, but I wanted a half decent IDE. It should convert back to Arduno IDE fairly easily.
+* In hindsight:
+  * Software: not using the default Arduino bootloader may be better (doesn't pulse the pins on boot); (OptiBoot?)
+  * Hardware: drive the transistors, from the MCU, via a resistor and have a pulldown
+  * Hardware: There are nice modular 110V/220V mains to 12V modules that could shrink the total install package size.
+  * Hardware: add simple debounce circuit to door switch. Maybe even a gated debounce.
+  * Hardware: The fan turned out to be annoying in terms of humming sound. With a differnt type of fan and a custom 3D printed baffle, the idea could be promissing.
+  * Hardware: Maybe port to a more modern cheap platform (ESP8266/ESP32) and/or surface mount components
 
 
 Background story:
