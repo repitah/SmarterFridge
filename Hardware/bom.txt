@@ -1,0 +1,46 @@
+Partlist
+
+Exported from fridge.sch at 2013/06/12 11:44:57 AM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part        Value                Device               Package        Library       Sheet
+
+220V-INPUT  220V-in              W237-102             W237-102       con-wago-500  1
+220V-OUTPUT 220V-Outputs         W237-103             W237-103       con-wago-500  1
+BUZZER                           M02                  02P            con-amp-quick 1
+C1          100n                 C-EU025-025X050      C025-025X050   rcl           1
+C2          22p                  C-EU025-024X044      C025-024X044   rcl           1
+C3          22p                  C-EU025-024X044      C025-024X044   rcl           1
+C5          100n                 C-EU025-030X050      C025-030X050   rcl           1
+C6          100u                 CPOL-EUB45181A       B45181A        rcl           1
+C7          100u                 CPOL-EUB45181A       B45181A        rcl           1
+C9          100n                 C-EU025-050X050      C025-050X050   rcl           1
+D1          1N4148DO35-7         1N4148DO35-7         DO35-7         diode         1
+DOORSW                           M02                  02P            con-amp-quick 1
+FAN         Fan-Connector        W237-102             W237-102       con-wago-500  1
+IC1         ATMEGA8              AT90S4433P           DIL28-3        atmel         1
+IC4         MC33269T-5.0         MC33269T-5.0         TO220V         linear        1
+K1          V23148-A0005-A101-CO V23148-A0005-A101-CO V23148-CO      relay         1
+K2          V23148-A0005-A101-CO V23148-A0005-A101-CO V23148-CO      relay         1
+K3          V23148-A0005-A101-CO V23148-A0005-A101-CO V23148-CO      relay         1
+PWRLED      red                  LED5MM               LED5MM         led           1
+Q1          NPN_9013_SMD         TRANSISTOR-NPN-TO-92 TO-92-TRIANGLE Discrete      1
+Q2          16MHz                CRYTALHC49S          HC49/S         crystal       1
+Q3          NPN_9013_SMD         TRANSISTOR-NPN-TO-92 TO-92-TRIANGLE Discrete      1
+Q4          NPN_9013_SMD         TRANSISTOR-NPN-TO-92 TO-92-TRIANGLE Discrete      1
+Q5          NPN_9013_SMD         TRANSISTOR-NPN-TO-92 TO-92-TRIANGLE Discrete      1
+R1          10k                  R-EU_0204/2V         0204V          rcl           1
+R3                               R-US_0204/5          0204/5         resistor      1
+R4                               R-US_0204/5          0204/5         resistor      1
+R5                               R-US_0204/5          0204/5         resistor      1
+R6          1k                   R-EU_0204/7          0204/7         rcl           1
+R7                               R-US_0207/7          0207/7         resistor      1
+R8                               R-US_0204/5          0204/5         resistor      1
+SL1         DC in                M02                  02P            con-amp-quick 1
+SL2         AC PSU               M02                  02P            con-amp-quick 1
+TEMPSETTING                      M03                  03P            con-amp-quick 1
+THERM+                           2,54/0,8             2,54/0,8       wirepad       1
+THERMGND                         2,54/0,8             2,54/0,8       wirepad       1
