@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Arduino Duemilanove (328)" />
+	<File name="sketch.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor1 position="947" topLine="15" />
+	</File>
+	<File name="libraries\libraries.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="214" topLine="25" />
+	</File>
+	<File name="libraries\Thermometer\Thermometer.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="598" topLine="0" />
+	</File>
+	<File name="libraries\Thermometer\Thermometer.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="234" topLine="0" />
+	</File>
+	<File name="libraries\SMARTERFRIDGE_DOORFAN.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="420" topLine="2" />
+	</File>
+	<File name="libraries\PCD8544\charset.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="4263" topLine="24" />
+	</File>
+	<File name="libraries\PCD8544\PCD8544.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1542" topLine="6" />
+	</File>
+	<File name="libraries\PCD8544\PCD8544.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3550" topLine="51" />
+	</File>
+</CodeBlocks_layout_file>

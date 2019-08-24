@@ -1,0 +1,1812 @@
+# depslib dependency file v1.0
+1357121375 source:c:\users\repitah\documents\projects\smarterfridge\sketch.cpp
+	<Arduino.h>
+	<string.h>
+	<avr/sleep.h>
+	<avr/power.h>
+	<avr/wdt.h>
+	<avr/interrupt.h>
+	"libraries/Thermometer/Thermometer.h"
+	"libraries/PCD8544/PCD8544.h"
+
+1333280177 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"ardusim.h"
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"pins_arduino.h"
+
+1337182510 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\ardusim.h
+	<windows.h>
+	<unistd.h>
+	<stdint.h>
+	<stdlib.h>
+
+1231619566 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\stdint.h
+	<stddef.h>
+
+1333280461 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\pgmspace.h
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<inttypes.h>
+	<stddef.h>
+	<avr/io.h>
+
+1263081802 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\io.h
+	<avr/sfr_defs.h>
+	<avr/portpins.h>
+	<avr/common.h>
+	<avr/version.h>
+	<avr/sfr_defs.h>
+	<avr/ioat94k.h>
+	<avr/io43u32x.h>
+	<avr/io43u35x.h>
+	<avr/io76c711.h>
+	<avr/io86r401.h>
+	<avr/io90pwm1.h>
+	<avr/io90pwmx.h>
+	<avr/io90pwm2b.h>
+	<avr/io90pwmx.h>
+	<avr/io90pwm3b.h>
+	<avr/io90pwm216.h>
+	<avr/io90pwm316.h>
+	<avr/io90pwm81.h>
+	<avr/iom8u2.h>
+	<avr/iom16m1.h>
+	<avr/iom16u2.h>
+	<avr/iom16u4.h>
+	<avr/iom32c1.h>
+	<avr/iom32m1.h>
+	<avr/iom32u2.h>
+	<avr/iom32u4.h>
+	<avr/iom32u6.h>
+	<avr/iom64c1.h>
+	<avr/iom64m1.h>
+	<avr/iom128.h>
+	<avr/iom1280.h>
+	<avr/iom1281.h>
+	<avr/iom1284p.h>
+	<avr/iom128rfa1.h>
+	<avr/iom2560.h>
+	<avr/iom2561.h>
+	<avr/iocan32.h>
+	<avr/iocan64.h>
+	<avr/iocan128.h>
+	<avr/iousb82.h>
+	<avr/iousb162.h>
+	<avr/iousb646.h>
+	<avr/iousb647.h>
+	<avr/iousb1286.h>
+	<avr/iousb1287.h>
+	<avr/iom64.h>
+	<avr/iom640.h>
+	<avr/iom644.h>
+	<avr/iom644p.h>
+	<avr/iom644pa.h>
+	<avr/iom645.h>
+	<avr/iom6450.h>
+	<avr/iom649.h>
+	<avr/iom6490.h>
+	<avr/iom649p.h>
+	<avr/iom64hve.h>
+	<avr/iom103.h>
+	<avr/iom32.h>
+	<avr/iom323.h>
+	<avr/iom324.h>
+	<avr/iom324pa.h>
+	<avr/iom325.h>
+	<avr/iom325.h>
+	<avr/iom3250.h>
+	<avr/iom3250.h>
+	<avr/iom328p.h>
+	<avr/iom329.h>
+	<avr/iom329.h>
+	<avr/iom3290.h>
+	<avr/iom3290.h>
+	<avr/iom32hvb.h>
+	<avr/iom406.h>
+	<avr/iom16.h>
+	<avr/iom16a.h>
+	<avr/iom161.h>
+	<avr/iom162.h>
+	<avr/iom163.h>
+	<avr/iom164.h>
+	<avr/iom165.h>
+	<avr/iom165p.h>
+	<avr/iom168.h>
+	<avr/iom168p.h>
+	<avr/iom169.h>
+	<avr/iom169p.h>
+	<avr/iom169pa.h>
+	<avr/iom8hva.h>
+	<avr/iom16hva.h>
+	<avr/iom16hva2.h>
+	<avr/iom16hvb.h>
+	<avr/iom8.h>
+	<avr/iom48.h>
+	<avr/iom48p.h>
+	<avr/iom88.h>
+	<avr/iom88p.h>
+	<avr/iom88pa.h>
+	<avr/iom8515.h>
+	<avr/iom8535.h>
+	<avr/io8535.h>
+	<avr/io8534.h>
+	<avr/io8515.h>
+	<avr/io4434.h>
+	<avr/io4433.h>
+	<avr/io4414.h>
+	<avr/iotn22.h>
+	<avr/iotn26.h>
+	<avr/io2343.h>
+	<avr/io2333.h>
+	<avr/io2323.h>
+	<avr/io2313.h>
+	<avr/iotn2313.h>
+	<avr/iotn2313a.h>
+	<avr/iotn13.h>
+	<avr/iotn13a.h>
+	<avr/iotn25.h>
+	<avr/iotn4313.h>
+	<avr/iotn45.h>
+	<avr/iotn85.h>
+	<avr/iotn24.h>
+	<avr/iotn24a.h>
+	<avr/iotn44.h>
+	<avr/iotn44a.h>
+	<avr/iotn84.h>
+	<avr/iotn261.h>
+	<avr/iotn261a.h>
+	<avr/iotn461.h>
+	<avr/iotn461a.h>
+	<avr/iotn861.h>
+	<avr/iotn861a.h>
+	<avr/iotn43u.h>
+	<avr/iotn48.h>
+	<avr/iotn88.h>
+	<avr/iotn87.h>
+	<avr/iotn167.h>
+	<avr/io90scr100.h>
+	<avr/iox16a4.h>
+	<avr/iox16d4.h>
+	<avr/iox32a4.h>
+	<avr/iox32d4.h>
+	<avr/iox64a1.h>
+	<avr/iox64a3.h>
+	<avr/iox64d3.h>
+	<avr/iox128a1.h>
+	<avr/iox128a3.h>
+	<avr/iox128d3.h>
+	<avr/iox192a3.h>
+	<avr/iox192d3.h>
+	<avr/iox256a3.h>
+	<avr/iox256a3b.h>
+	<avr/iox256d3.h>
+	<avr/ioa6289.h>
+	<avr/iotn28.h>
+	<avr/io1200.h>
+	<avr/iotn15.h>
+	<avr/iotn12.h>
+	<avr/iotn11.h>
+	<avr/portpins.h>
+	<avr/common.h>
+	<avr/version.h>
+	<avr/fuse.h>
+	<avr/lock.h>
+
+1334466496 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\sfr_defs.h
+	<inttypes.h>
+
+1263081814 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\portpins.h
+
+1263081800 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\common.h
+	<avr/sfr_defs.h>
+
+1263081814 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\version.h
+
+1263081802 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\iom1280.h
+	<avr/iomxx0_1.h>
+
+1263081804 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\iom2560.h
+	<avr/iomxx0_1.h>
+
+1263081806 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\iom328p.h
+
+1263081804 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\iom168p.h
+
+1263081802 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\fuse.h
+	<avr/io.h>
+	<avr/io.h>
+	<avr/io.h>
+
+1263081814 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\lock.h
+	<avr/io.h>
+	<avr/io.h>
+
+1337182953 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\interrupt.h
+	<avr/io.h>
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\binary.h
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wcharacter.h
+	<ctype.h>
+
+1333434070 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wstring.h
+	<ardusim.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\hardwareserial.h
+	<inttypes.h>
+	"Stream.h"
+	"USBAPI.h"
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\stream.h
+	<inttypes.h>
+	"Print.h"
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\printable.h
+	<new.h>
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\new.h
+	<stdlib.h>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\usbapi.h
+
+1333282143 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\variants\standard\pins_arduino.h
+	<ardusim.h>
+	<avr/pgmspace.h>
+
+1343507781 source:c:\users\repitah\documents\projects\smarterfridge\libraries\libraries.cpp
+	<Arduino.h>
+	"EEPROM.cpp"
+	"Ethernet.cpp"
+	"EthernetClient.cpp"
+	"EthernetServer.cpp"
+	"EthernetUdp.cpp"
+	"Firmata.cpp"
+	"SD.cpp"
+	"Sd2Card.cpp"
+	"SdFile.cpp"
+	"SdVolume.cpp"
+	"File.cpp"
+	"Servo.cpp"
+	"SoftwareSerial.cpp"
+	"SPI.cpp"
+	"stepper.cpp"
+	"Wire.cpp"
+	"twi.c"
+
+1332666953 source:c:\users\repitah\documents\projects\smarterfridge\cores\wiring_shift.c
+	<wiring_shift.c>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wiring_shift.c
+	"wiring_private.h"
+
+1334466191 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wiring_private.h
+	<stdio.h>
+	<stdarg.h>
+	"Arduino.h"
+
+1332666941 source:c:\users\repitah\documents\projects\smarterfridge\cores\wiring_pulse.c
+	<wiring_pulse.c>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wiring_pulse.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1332666835 source:c:\users\repitah\documents\projects\smarterfridge\cores\wiring_digital.c
+	<wiring_digital.c>
+
+1333432588 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wiring_digital.c
+	"wiring_private.h"
+	"pins_arduino.h"
+	<stdio.h>
+
+1332666817 source:c:\users\repitah\documents\projects\smarterfridge\cores\wiring_analog.c
+	<wiring_analog.c>
+
+1334572830 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wiring_analog.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1332666794 source:c:\users\repitah\documents\projects\smarterfridge\cores\wiring.c
+	<wiring.c>
+
+1337182439 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wiring.c
+	"wiring_private.h"
+	<sys/time.h>
+
+1332666588 source:c:\users\repitah\documents\projects\smarterfridge\cores\new.cpp
+	<new.cpp>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\new.cpp
+	<new.h>
+
+1332666611 source:c:\users\repitah\documents\projects\smarterfridge\cores\main.cpp
+	<main.cpp>
+
+1334466537 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\main.cpp
+	<Arduino.h>
+	<stdio.h>
+
+1332666563 source:c:\users\repitah\documents\projects\smarterfridge\cores\wstring.cpp
+	<WString.cpp>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wstring.cpp
+	"WString.h"
+
+1335547837 source:c:\users\repitah\documents\projects\smarterfridge\cores\wmath.cpp
+	<WMath.cpp>
+
+1337182396 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\wmath.cpp
+	"stdlib.h"
+	<ardusim.h>
+	<sys/time.h>
+
+1332666573 source:c:\users\repitah\documents\projects\smarterfridge\cores\winterrupts.c
+	<WInterrupts.c>
+
+1337183024 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\winterrupts.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	<stdio.h>
+	"wiring_private.h"
+
+1332666576 source:c:\users\repitah\documents\projects\smarterfridge\cores\usbcore.cpp
+	<USBCore.cpp>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\usbcore.cpp
+	"Platform.h"
+	"USBAPI.h"
+	"USBDesc.h"
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\platform.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	<avr/eeprom.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"Arduino.h"
+	"USBDesc.h"
+	"USBCore.h"
+	"USBAPI.h"
+
+1263081800 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\eeprom.h
+	<avr/io.h>
+	<stddef.h>
+	<stdint.h>
+
+1334466226 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\util\delay.h
+	<inttypes.h>
+	<util/delay_basic.h>
+	<util/delay.h>
+
+1263081816 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\util\delay_basic.h
+	<inttypes.h>
+	<util/delay_basic.h>
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\usbdesc.h
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\usbcore.h
+
+1340288033 source:c:\users\repitah\documents\projects\smarterfridge\cores\tone.cpp
+	<Tone.cpp>
+
+1337183312 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\tone.cpp
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	"Arduino.h"
+	"pins_arduino.h"
+
+1340288030 source:c:\users\repitah\documents\projects\smarterfridge\cores\stream.cpp
+	<Stream.cpp>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\stream.cpp
+	"Arduino.h"
+	"Stream.h"
+
+1340288024 source:c:\users\repitah\documents\projects\smarterfridge\cores\print.cpp
+	<Print.cpp>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\print.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"Arduino.h"
+	"Print.h"
+
+1332666608 source:c:\users\repitah\documents\projects\smarterfridge\cores\ipaddress.cpp
+	<IPAddress.cpp>
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\ipaddress.cpp
+	<Arduino.h>
+	<IPAddress.h>
+
+1333434638 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\ipaddress.h
+	<Printable.h>
+
+1332666599 source:c:\users\repitah\documents\projects\smarterfridge\cores\hardwareserial.cpp
+	<HardwareSerial.cpp>
+
+1337183284 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\hardwareserial.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	"Arduino.h"
+	"wiring_private.h"
+	"HardwareSerial.h"
+
+1332666603 source:c:\users\repitah\documents\projects\smarterfridge\cores\hid.cpp
+	<HID.cpp>
+
+1322479934 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\hid.cpp
+	"Platform.h"
+	"USBAPI.h"
+	"USBDesc.h"
+
+1332666594 source:c:\users\repitah\documents\projects\smarterfridge\cores\cdc.cpp
+	<CDC.cpp>
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\arduino\cores\cdc.cpp
+	"Platform.h"
+	"USBAPI.h"
+	<avr/wdt.h>
+
+1263081814 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\ardusim\include\avr\wdt.h
+	<avr/io.h>
+	<stdint.h>
+	<stdint.h>
+	<avr/wdt.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"pins_arduino.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\binary.h
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wcharacter.h
+	<ctype.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wstring.h
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\hardwareserial.h
+	<inttypes.h>
+	"Stream.h"
+	"USBAPI.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\stream.h
+	<inttypes.h>
+	"Print.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\printable.h
+	<new.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\new.h
+	<stdlib.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\usbapi.h
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\variants\standard\pins_arduino.h
+	<avr/pgmspace.h>
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\eeprom\eeprom.cpp
+	<avr/eeprom.h>
+	"Arduino.h"
+	"EEPROM.h"
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\eeprom\eeprom.h
+	<inttypes.h>
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\ethernet.cpp
+	"w5100.h"
+	"Ethernet.h"
+	"Dhcp.h"
+
+1322479926 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\ethernet.h
+	<inttypes.h>
+	"IPAddress.h"
+	"EthernetClient.h"
+	"EthernetServer.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\ipaddress.h
+	<Printable.h>
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\ethernetclient.h
+	"Arduino.h"
+	"Print.h"
+	"Client.h"
+	"IPAddress.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\client.h
+	"Print.h"
+	"Stream.h"
+	"IPAddress.h"
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\ethernetserver.h
+	"Server.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\server.h
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\dhcp.h
+	"EthernetUdp.h"
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\ethernetudp.h
+	<Udp.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\udp.h
+	<Stream.h>
+	<IPAddress.h>
+
+1322479926 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\ethernetclient.cpp
+	"w5100.h"
+	"socket.h"
+	"string.h"
+	"Arduino.h"
+	"Ethernet.h"
+	"EthernetClient.h"
+	"EthernetServer.h"
+	"Dns.h"
+
+1322479926 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\dns.h
+	<EthernetUdp.h>
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\ethernetserver.cpp
+	"w5100.h"
+	"socket.h"
+	"string.h"
+	"Ethernet.h"
+	"EthernetClient.h"
+	"EthernetServer.h"
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\ethernet\ethernetudp.cpp
+	"w5100.h"
+	"socket.h"
+	"Ethernet.h"
+	"Udp.h"
+	"Dns.h"
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\firmata\firmata.cpp
+	"Firmata.h"
+	"HardwareSerial.h"
+	<string.h>
+	<stdlib.h>
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\firmata\firmata.h
+	"Boards.h"
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\firmata\boards.h
+	<inttypes.h>
+	"Arduino.h"
+	"WProgram.h"
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\liquidcrystal\liquidcrystal.cpp
+	"LiquidCrystal.h"
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	"Arduino.h"
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\liquidcrystal\liquidcrystal.h
+	<inttypes.h>
+	"Print.h"
+
+1329035067 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\lcd4884\lcd4884.cpp
+	"LCD4884.h"
+	"font_6x8.h"
+	"font_big.h"
+	"Arduino.h"
+	"WProgram.h"
+	"WConstants.h"
+	<avr/pgmspace.h>
+	<avr/io.h>
+
+1334902837 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\lcd4884\lcd4884.h
+	"Arduino.h"
+	"WProgram.h"
+
+1299135418 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\lcd4884\font_6x8.h
+	<avr/pgmspace.h>
+
+1329034981 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\lcd4884\font_big.h
+	<avr/pgmspace.h>
+
+1340530724 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\obd\obd.cpp
+	<Arduino.h>
+	<avr/pgmspace.h>
+	"OBD.h"
+
+1340471024 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\obd\obd.h
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\sd.cpp
+	"SD.h"
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\sd.h
+	<Arduino.h>
+	<utility/SdFat.h>
+	<utility/SdFatUtil.h>
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\utility\sdfat.h
+	<avr/pgmspace.h>
+	"Sd2Card.h"
+	"FatStructs.h"
+	"Print.h"
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\utility\sd2card.h
+	"Sd2PinMap.h"
+	"SdInfo.h"
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\utility\sd2pinmap.h
+	<avr/io.h>
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\utility\sdinfo.h
+	<stdint.h>
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\utility\fatstructs.h
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\utility\sdfatutil.h
+	<Arduino.h>
+	<avr/pgmspace.h>
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\utility\sd2card.cpp
+	<Arduino.h>
+	"Sd2Card.h"
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\utility\sdfile.cpp
+	<SdFat.h>
+	<avr/pgmspace.h>
+	<Arduino.h>
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\utility\sdvolume.cpp
+	<SdFat.h>
+
+1322479926 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\sd\file.cpp
+	<SD.h>
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\servo\servo.cpp
+	<avr/interrupt.h>
+	<Arduino.h>
+	"Servo.h"
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\servo\servo.h
+	<inttypes.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\softwareserial\softwareserial.cpp
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	"Arduino.h"
+	"SoftwareSerial.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\softwareserial\softwareserial.h
+	<inttypes.h>
+	<Stream.h>
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\spi\spi.cpp
+	"pins_arduino.h"
+	"SPI.h"
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\spi\spi.h
+	<stdio.h>
+	<Arduino.h>
+	<avr/pgmspace.h>
+
+1322479932 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\stepper\stepper.cpp
+	"Arduino.h"
+	"Stepper.h"
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\stepper\stepper.h
+
+1328627870 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\tinygps\tinygps.cpp
+	"TinyGPS.h"
+
+1328627884 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\tinygps\tinygps.h
+	"Arduino.h"
+	"WProgram.h"
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\wire\wire.cpp
+	<stdlib.h>
+	<string.h>
+	<inttypes.h>
+	"twi.h"
+	"Wire.h"
+
+1322479928 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\wire\utility\twi.h
+	<inttypes.h>
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\wire\wire.h
+	<inttypes.h>
+	"Stream.h"
+
+1322479930 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\libraries\wire\utility\twi.c
+	<math.h>
+	<stdlib.h>
+	<inttypes.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<compat/twi.h>
+	"Arduino.h"
+	"pins_arduino.h"
+	"twi.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_shift.c
+	"wiring_private.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_private.h
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	<stdarg.h>
+	"Arduino.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_pulse.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_digital.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_analog.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wiring.c
+	"wiring_private.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\new.cpp
+	<new.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\main.cpp
+	<Arduino.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wstring.cpp
+	"WString.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\wmath.cpp
+	"stdlib.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\winterrupts.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	<stdio.h>
+	"wiring_private.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\usbcore.cpp
+	"Platform.h"
+	"USBAPI.h"
+	"USBDesc.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\platform.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	<avr/eeprom.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"Arduino.h"
+	"USBDesc.h"
+	"USBCore.h"
+	"USBAPI.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\usbdesc.h
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\usbcore.h
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\tone.cpp
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	"Arduino.h"
+	"pins_arduino.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\stream.cpp
+	"Arduino.h"
+	"Stream.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\print.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"Arduino.h"
+	"Print.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\ipaddress.cpp
+	<Arduino.h>
+	<IPAddress.h>
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\hardwareserial.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	"Arduino.h"
+	"wiring_private.h"
+	"HardwareSerial.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\hid.cpp
+	"Platform.h"
+	"USBAPI.h"
+	"USBDesc.h"
+
+1337594726 c:\users\repitah\downloads\codeblocks-arduino-20120713\codeblocks\arduino\hardware\arduino\cores\arduino\cdc.cpp
+	"Platform.h"
+	"USBAPI.h"
+	<avr/wdt.h>
+
+1342972208 source:c:\users\repitah\documents\projects\smarterfridge\libraries\smarterfridge_doorfan.cpp
+	"SMARTERFRIDGE_DOORFAN.h"
+
+1342972530 c:\users\repitah\documents\projects\smarterfridge\libraries\smarterfridge_doorfan.h
+	"Arduino.h"
+
+1342971519 source:c:\users\repitah\documents\projects\smarterfridge\libraries\pcd8544\charset.cpp
+	<avr/pgmspace.h>
+
+1342971519 source:c:\users\repitah\documents\projects\smarterfridge\libraries\pcd8544\pcd8544.cpp
+	"PCD8544.h"
+	<WProgram.h>
+	<Arduino.h>
+	<avr/pgmspace.h>
+	"charset.cpp"
+
+1342971519 c:\users\repitah\documents\projects\smarterfridge\libraries\pcd8544\pcd8544.h
+	<WProgram.h>
+	<Arduino.h>
+
+1342971519 c:\users\repitah\documents\projects\smarterfridge\libraries\pcd8544\charset.cpp
+	<avr/pgmspace.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wstring.cpp
+	"WString.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wstring.h
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\main.cpp
+	<Arduino.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"pins_arduino.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\binary.h
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wcharacter.h
+	<ctype.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\hardwareserial.h
+	<inttypes.h>
+	"Stream.h"
+	"USBAPI.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\stream.h
+	<inttypes.h>
+	"Print.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\printable.h
+	<new.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\new.h
+	<stdlib.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\usbapi.h
+
+1372515509 c:\codeblocks\arduino\hardware\arduino\variants\standard\pins_arduino.h
+	<avr/pgmspace.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\new.cpp
+	<new.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wiring.c
+	"wiring_private.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_private.h
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	<stdarg.h>
+	"Arduino.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_analog.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_digital.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_pulse.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wiring_shift.c
+	"wiring_private.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\cdc.cpp
+	"Platform.h"
+	"USBAPI.h"
+	<avr/wdt.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\platform.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	<avr/eeprom.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"Arduino.h"
+	"USBDesc.h"
+	"USBCore.h"
+	"USBAPI.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\usbdesc.h
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\usbcore.h
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\hid.cpp
+	"Platform.h"
+	"USBAPI.h"
+	"USBDesc.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\hardwareserial.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	"Arduino.h"
+	"wiring_private.h"
+	"HardwareSerial.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\ipaddress.cpp
+	<Arduino.h>
+	<IPAddress.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\ipaddress.h
+	<Printable.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\print.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"Arduino.h"
+	"Print.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\stream.cpp
+	"Arduino.h"
+	"Stream.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\tone.cpp
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	"Arduino.h"
+	"pins_arduino.h"
+
+1372515620 c:\codeblocks\arduino\libraries\eeprom\eeprom.cpp
+	<avr/eeprom.h>
+	"Arduino.h"
+	"EEPROM.h"
+
+1372515620 c:\codeblocks\arduino\libraries\eeprom\eeprom.h
+	<inttypes.h>
+
+1372515621 c:\codeblocks\arduino\libraries\ethernet\ethernet.cpp
+	"w5100.h"
+	"Ethernet.h"
+	"Dhcp.h"
+
+1372515621 c:\codeblocks\arduino\libraries\ethernet\ethernet.h
+	<inttypes.h>
+	"IPAddress.h"
+	"EthernetClient.h"
+	"EthernetServer.h"
+	"Dhcp.h"
+
+1372515621 c:\codeblocks\arduino\libraries\ethernet\ethernetclient.h
+	"Arduino.h"
+	"Print.h"
+	"Client.h"
+	"IPAddress.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\client.h
+	"Print.h"
+	"Stream.h"
+	"IPAddress.h"
+
+1372515621 c:\codeblocks\arduino\libraries\ethernet\ethernetserver.h
+	"Server.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\server.h
+
+1372515620 c:\codeblocks\arduino\libraries\ethernet\dhcp.h
+	"EthernetUdp.h"
+
+1372515621 c:\codeblocks\arduino\libraries\ethernet\ethernetudp.h
+	<Udp.h>
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\udp.h
+	<Stream.h>
+	<IPAddress.h>
+
+1372515621 c:\codeblocks\arduino\libraries\ethernet\ethernetclient.cpp
+	"w5100.h"
+	"socket.h"
+	"string.h"
+	"Arduino.h"
+	"Ethernet.h"
+	"EthernetClient.h"
+	"EthernetServer.h"
+	"Dns.h"
+
+1372515621 c:\codeblocks\arduino\libraries\ethernet\dns.h
+	<EthernetUdp.h>
+
+1372515621 c:\codeblocks\arduino\libraries\ethernet\ethernetserver.cpp
+	"w5100.h"
+	"socket.h"
+	"string.h"
+	"Ethernet.h"
+	"EthernetClient.h"
+	"EthernetServer.h"
+
+1372515621 c:\codeblocks\arduino\libraries\ethernet\ethernetudp.cpp
+	"w5100.h"
+	"socket.h"
+	"Ethernet.h"
+	"Udp.h"
+	"Dns.h"
+
+1372515621 c:\codeblocks\arduino\libraries\firmata\firmata.cpp
+	"Firmata.h"
+	"HardwareSerial.h"
+	<string.h>
+	<stdlib.h>
+
+1372515621 c:\codeblocks\arduino\libraries\firmata\firmata.h
+	"Boards.h"
+
+1372515621 c:\codeblocks\arduino\libraries\firmata\boards.h
+	<inttypes.h>
+	"Arduino.h"
+	"WProgram.h"
+
+1322479930 c:\codeblocks\arduino\libraries\liquidcrystal\liquidcrystal.cpp
+	"LiquidCrystal.h"
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	"Arduino.h"
+
+1322479928 c:\codeblocks\arduino\libraries\liquidcrystal\liquidcrystal.h
+	<inttypes.h>
+	"Print.h"
+
+1329035067 c:\codeblocks\arduino\libraries\lcd4884\lcd4884.cpp
+	"LCD4884.h"
+	"font_6x8.h"
+	"font_big.h"
+	"Arduino.h"
+	"WProgram.h"
+	"WConstants.h"
+	<avr/pgmspace.h>
+	<avr/io.h>
+
+1334902837 c:\codeblocks\arduino\libraries\lcd4884\lcd4884.h
+	"Arduino.h"
+	"WProgram.h"
+
+1299135418 c:\codeblocks\arduino\libraries\lcd4884\font_6x8.h
+	<avr/pgmspace.h>
+
+1329034981 c:\codeblocks\arduino\libraries\lcd4884\font_big.h
+	<avr/pgmspace.h>
+
+1340530724 c:\codeblocks\arduino\libraries\obd\obd.cpp
+	<Arduino.h>
+	<avr/pgmspace.h>
+	"OBD.h"
+
+1340471024 c:\codeblocks\arduino\libraries\obd\obd.h
+
+1372515623 c:\codeblocks\arduino\libraries\sd\sd.cpp
+	"SD.h"
+
+1372515623 c:\codeblocks\arduino\libraries\sd\sd.h
+	<Arduino.h>
+	<utility/SdFat.h>
+	<utility/SdFatUtil.h>
+
+1372515623 c:\codeblocks\arduino\libraries\sd\utility\sdfat.h
+	<avr/pgmspace.h>
+	"Sd2Card.h"
+	"FatStructs.h"
+	"Print.h"
+
+1372515623 c:\codeblocks\arduino\libraries\sd\utility\sd2card.h
+	"Sd2PinMap.h"
+	"SdInfo.h"
+
+1372515623 c:\codeblocks\arduino\libraries\sd\utility\sd2pinmap.h
+	<avr/io.h>
+
+1372515623 c:\codeblocks\arduino\libraries\sd\utility\sdinfo.h
+	<stdint.h>
+
+1372515623 c:\codeblocks\arduino\libraries\sd\utility\fatstructs.h
+
+1372515623 c:\codeblocks\arduino\libraries\sd\utility\sdfatutil.h
+	<Arduino.h>
+	<avr/pgmspace.h>
+
+1372515623 c:\codeblocks\arduino\libraries\sd\utility\sd2card.cpp
+	<Arduino.h>
+	"Sd2Card.h"
+
+1372515623 c:\codeblocks\arduino\libraries\sd\utility\sdfile.cpp
+	<SdFat.h>
+	<avr/pgmspace.h>
+	<Arduino.h>
+
+1372515623 c:\codeblocks\arduino\libraries\sd\utility\sdvolume.cpp
+	<SdFat.h>
+
+1372515623 c:\codeblocks\arduino\libraries\sd\file.cpp
+	<SD.h>
+
+1372515623 c:\codeblocks\arduino\libraries\servo\servo.cpp
+	<avr/interrupt.h>
+	<Arduino.h>
+	"Servo.h"
+
+1372515623 c:\codeblocks\arduino\libraries\servo\servo.h
+	<inttypes.h>
+
+1372515623 c:\codeblocks\arduino\libraries\softwareserial\softwareserial.cpp
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	<Arduino.h>
+	<SoftwareSerial.h>
+
+1372515623 c:\codeblocks\arduino\libraries\softwareserial\softwareserial.h
+	<inttypes.h>
+	<Stream.h>
+
+1372515623 c:\codeblocks\arduino\libraries\spi\spi.cpp
+	"pins_arduino.h"
+	"SPI.h"
+
+1372515623 c:\codeblocks\arduino\libraries\spi\spi.h
+	<stdio.h>
+	<Arduino.h>
+	<avr/pgmspace.h>
+
+1372515624 c:\codeblocks\arduino\libraries\stepper\stepper.cpp
+	"Arduino.h"
+	"Stepper.h"
+
+1372515624 c:\codeblocks\arduino\libraries\stepper\stepper.h
+
+1328627870 c:\codeblocks\arduino\libraries\tinygps\tinygps.cpp
+	"TinyGPS.h"
+
+1328627884 c:\codeblocks\arduino\libraries\tinygps\tinygps.h
+	"Arduino.h"
+	"WProgram.h"
+
+1372515624 c:\codeblocks\arduino\libraries\wire\wire.cpp
+	<stdlib.h>
+	<string.h>
+	<inttypes.h>
+	"twi.h"
+	"Wire.h"
+
+1372515625 c:\codeblocks\arduino\libraries\wire\utility\twi.h
+	<inttypes.h>
+
+1372515624 c:\codeblocks\arduino\libraries\wire\wire.h
+	<inttypes.h>
+	"Stream.h"
+
+1372515625 c:\codeblocks\arduino\libraries\wire\utility\twi.c
+	<math.h>
+	<stdlib.h>
+	<inttypes.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<compat/twi.h>
+	"Arduino.h"
+	"pins_arduino.h"
+	"twi.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\usbcore.cpp
+	"Platform.h"
+	"USBAPI.h"
+	"USBDesc.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\winterrupts.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	<stdio.h>
+	"wiring_private.h"
+
+1372515504 c:\codeblocks\arduino\hardware\arduino\cores\arduino\wmath.cpp
+	"stdlib.h"
+
+1343582520 source:c:\users\repitah\documents\projects\smarterfridge\src\thermometer.cpp
+	"include/Thermometer.h"
+
+1343582483 c:\users\repitah\documents\projects\smarterfridge\include\thermometer.h
+	<arduino.h>
+
+1343765598 c:\users\repitah\documents\projects\smarterfridge\libraries\thermometer\thermometer.h
+	<arduino.h>
+	<math.h>
+
+1343768013 source:c:\users\repitah\documents\projects\smarterfridge\libraries\thermometer\thermometer.cpp
+	"Thermometer.h"
+
+1344973020 source:c:\users\repitah\documents\projects\smarterfridge\output_serial.cpp
+
+1335547837 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\wmath.cpp
+	<WMath.cpp>
+
+1332666563 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\wstring.cpp
+	<WString.cpp>
+
+1332666611 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\main.cpp
+	<main.cpp>
+
+1332666588 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\new.cpp
+	<new.cpp>
+
+1332666794 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\wiring.c
+	<wiring.c>
+
+1332666817 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\wiring_analog.c
+	<wiring_analog.c>
+
+1332666835 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\wiring_digital.c
+	<wiring_digital.c>
+
+1332666941 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\wiring_pulse.c
+	<wiring_pulse.c>
+
+1332666953 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\wiring_shift.c
+	<wiring_shift.c>
+
+1342971519 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\libraries\pcd8544\pcd8544.cpp
+	"PCD8544.h"
+	<WProgram.h>
+	<Arduino.h>
+	<avr/pgmspace.h>
+	"charset.cpp"
+
+1342971519 c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\libraries\pcd8544\pcd8544.h
+	<WProgram.h>
+	<Arduino.h>
+
+1342971519 c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\libraries\pcd8544\charset.cpp
+	<avr/pgmspace.h>
+
+1342971519 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\libraries\pcd8544\charset.cpp
+	<avr/pgmspace.h>
+
+1332666594 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\cdc.cpp
+	<CDC.cpp>
+
+1343768013 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\libraries\thermometer\thermometer.cpp
+	"Thermometer.h"
+
+1343765598 c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\libraries\thermometer\thermometer.h
+	<arduino.h>
+	<math.h>
+
+1332666603 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\hid.cpp
+	<HID.cpp>
+
+1332666599 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\hardwareserial.cpp
+	<HardwareSerial.cpp>
+
+1343507781 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\libraries\libraries.cpp
+	<Arduino.h>
+	"EEPROM.cpp"
+	"Ethernet.cpp"
+	"EthernetClient.cpp"
+	"EthernetServer.cpp"
+	"EthernetUdp.cpp"
+	"Firmata.cpp"
+	"SD.cpp"
+	"Sd2Card.cpp"
+	"SdFile.cpp"
+	"SdVolume.cpp"
+	"File.cpp"
+	"Servo.cpp"
+	"SoftwareSerial.cpp"
+	"SPI.cpp"
+	"stepper.cpp"
+	"Wire.cpp"
+	"twi.c"
+
+1332666608 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\ipaddress.cpp
+	<IPAddress.cpp>
+
+1344973020 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\output_serial.cpp
+
+1340288024 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\print.cpp
+	<Print.cpp>
+
+1374398394 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\sketch.cpp
+	<Arduino.h>
+	<string.h>
+	<avr/sleep.h>
+	<avr/power.h>
+	<avr/wdt.h>
+	<avr/interrupt.h>
+	"libraries/Thermometer/Thermometer.h"
+	"libraries/PCD8544/PCD8544.h"
+
+1340288030 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\stream.cpp
+	<Stream.cpp>
+
+1340288033 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\tone.cpp
+	<Tone.cpp>
+
+1332666576 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\usbcore.cpp
+	<USBCore.cpp>
+
+1332666573 source:c:\users\repitah\dropbox\smarter_fridge\code\smarterfridge\cores\winterrupts.c
+	<WInterrupts.c>
+
+1322479932 c:\codeblocks\ardusim\arduino\cores\ipaddress.cpp
+	<Arduino.h>
+	<IPAddress.h>
+
+1333280177 c:\codeblocks\ardusim\arduino\cores\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"ardusim.h"
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"pins_arduino.h"
+
+1337182510 c:\codeblocks\ardusim\arduino\cores\ardusim.h
+	<windows.h>
+	<unistd.h>
+	<stdint.h>
+	<stdlib.h>
+
+1231619566 c:\codeblocks\ardusim\arduino\cores\stdint.h
+	<stddef.h>
+
+1333280461 c:\codeblocks\ardusim\include\avr\pgmspace.h
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<inttypes.h>
+	<stddef.h>
+	<avr/io.h>
+
+1263081802 c:\codeblocks\ardusim\include\avr\io.h
+	<avr/sfr_defs.h>
+	<avr/portpins.h>
+	<avr/common.h>
+	<avr/version.h>
+	<avr/sfr_defs.h>
+	<avr/ioat94k.h>
+	<avr/io43u32x.h>
+	<avr/io43u35x.h>
+	<avr/io76c711.h>
+	<avr/io86r401.h>
+	<avr/io90pwm1.h>
+	<avr/io90pwmx.h>
+	<avr/io90pwm2b.h>
+	<avr/io90pwmx.h>
+	<avr/io90pwm3b.h>
+	<avr/io90pwm216.h>
+	<avr/io90pwm316.h>
+	<avr/io90pwm81.h>
+	<avr/iom8u2.h>
+	<avr/iom16m1.h>
+	<avr/iom16u2.h>
+	<avr/iom16u4.h>
+	<avr/iom32c1.h>
+	<avr/iom32m1.h>
+	<avr/iom32u2.h>
+	<avr/iom32u4.h>
+	<avr/iom32u6.h>
+	<avr/iom64c1.h>
+	<avr/iom64m1.h>
+	<avr/iom128.h>
+	<avr/iom1280.h>
+	<avr/iom1281.h>
+	<avr/iom1284p.h>
+	<avr/iom128rfa1.h>
+	<avr/iom2560.h>
+	<avr/iom2561.h>
+	<avr/iocan32.h>
+	<avr/iocan64.h>
+	<avr/iocan128.h>
+	<avr/iousb82.h>
+	<avr/iousb162.h>
+	<avr/iousb646.h>
+	<avr/iousb647.h>
+	<avr/iousb1286.h>
+	<avr/iousb1287.h>
+	<avr/iom64.h>
+	<avr/iom640.h>
+	<avr/iom644.h>
+	<avr/iom644p.h>
+	<avr/iom644pa.h>
+	<avr/iom645.h>
+	<avr/iom6450.h>
+	<avr/iom649.h>
+	<avr/iom6490.h>
+	<avr/iom649p.h>
+	<avr/iom64hve.h>
+	<avr/iom103.h>
+	<avr/iom32.h>
+	<avr/iom323.h>
+	<avr/iom324.h>
+	<avr/iom324pa.h>
+	<avr/iom325.h>
+	<avr/iom325.h>
+	<avr/iom3250.h>
+	<avr/iom3250.h>
+	<avr/iom328p.h>
+	<avr/iom329.h>
+	<avr/iom329.h>
+	<avr/iom3290.h>
+	<avr/iom3290.h>
+	<avr/iom32hvb.h>
+	<avr/iom406.h>
+	<avr/iom16.h>
+	<avr/iom16a.h>
+	<avr/iom161.h>
+	<avr/iom162.h>
+	<avr/iom163.h>
+	<avr/iom164.h>
+	<avr/iom165.h>
+	<avr/iom165p.h>
+	<avr/iom168.h>
+	<avr/iom168p.h>
+	<avr/iom169.h>
+	<avr/iom169p.h>
+	<avr/iom169pa.h>
+	<avr/iom8hva.h>
+	<avr/iom16hva.h>
+	<avr/iom16hva2.h>
+	<avr/iom16hvb.h>
+	<avr/iom8.h>
+	<avr/iom48.h>
+	<avr/iom48p.h>
+	<avr/iom88.h>
+	<avr/iom88p.h>
+	<avr/iom88pa.h>
+	<avr/iom8515.h>
+	<avr/iom8535.h>
+	<avr/io8535.h>
+	<avr/io8534.h>
+	<avr/io8515.h>
+	<avr/io4434.h>
+	<avr/io4433.h>
+	<avr/io4414.h>
+	<avr/iotn22.h>
+	<avr/iotn26.h>
+	<avr/io2343.h>
+	<avr/io2333.h>
+	<avr/io2323.h>
+	<avr/io2313.h>
+	<avr/iotn2313.h>
+	<avr/iotn2313a.h>
+	<avr/iotn13.h>
+	<avr/iotn13a.h>
+	<avr/iotn25.h>
+	<avr/iotn4313.h>
+	<avr/iotn45.h>
+	<avr/iotn85.h>
+	<avr/iotn24.h>
+	<avr/iotn24a.h>
+	<avr/iotn44.h>
+	<avr/iotn44a.h>
+	<avr/iotn84.h>
+	<avr/iotn261.h>
+	<avr/iotn261a.h>
+	<avr/iotn461.h>
+	<avr/iotn461a.h>
+	<avr/iotn861.h>
+	<avr/iotn861a.h>
+	<avr/iotn43u.h>
+	<avr/iotn48.h>
+	<avr/iotn88.h>
+	<avr/iotn87.h>
+	<avr/iotn167.h>
+	<avr/io90scr100.h>
+	<avr/iox16a4.h>
+	<avr/iox16d4.h>
+	<avr/iox32a4.h>
+	<avr/iox32d4.h>
+	<avr/iox64a1.h>
+	<avr/iox64a3.h>
+	<avr/iox64d3.h>
+	<avr/iox128a1.h>
+	<avr/iox128a3.h>
+	<avr/iox128d3.h>
+	<avr/iox192a3.h>
+	<avr/iox192d3.h>
+	<avr/iox256a3.h>
+	<avr/iox256a3b.h>
+	<avr/iox256d3.h>
+	<avr/ioa6289.h>
+	<avr/iotn28.h>
+	<avr/io1200.h>
+	<avr/iotn15.h>
+	<avr/iotn12.h>
+	<avr/iotn11.h>
+	<avr/portpins.h>
+	<avr/common.h>
+	<avr/version.h>
+	<avr/fuse.h>
+	<avr/lock.h>
+
+1334466496 c:\codeblocks\ardusim\include\avr\sfr_defs.h
+	<inttypes.h>
+
+1263081814 c:\codeblocks\ardusim\include\avr\portpins.h
+
+1263081800 c:\codeblocks\ardusim\include\avr\common.h
+	<avr/sfr_defs.h>
+
+1263081814 c:\codeblocks\ardusim\include\avr\version.h
+
+1263081802 c:\codeblocks\ardusim\include\avr\iom1280.h
+	<avr/iomxx0_1.h>
+
+1263081804 c:\codeblocks\ardusim\include\avr\iom2560.h
+	<avr/iomxx0_1.h>
+
+1263081806 c:\codeblocks\ardusim\include\avr\iom328p.h
+
+1263081804 c:\codeblocks\ardusim\include\avr\iom168p.h
+
+1263081802 c:\codeblocks\ardusim\include\avr\fuse.h
+	<avr/io.h>
+	<avr/io.h>
+	<avr/io.h>
+
+1263081814 c:\codeblocks\ardusim\include\avr\lock.h
+	<avr/io.h>
+	<avr/io.h>
+
+1337182953 c:\codeblocks\ardusim\include\avr\interrupt.h
+	<avr/io.h>
+
+1322479932 c:\codeblocks\ardusim\arduino\cores\binary.h
+
+1322479932 c:\codeblocks\ardusim\arduino\cores\wcharacter.h
+	<ctype.h>
+
+1333434070 c:\codeblocks\ardusim\arduino\cores\wstring.h
+	<ardusim.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\hardwareserial.h
+	<inttypes.h>
+	"Stream.h"
+	"USBAPI.h"
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\stream.h
+	<inttypes.h>
+	"Print.h"
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\printable.h
+	<new.h>
+
+1322479932 c:\codeblocks\ardusim\arduino\cores\new.h
+	<stdlib.h>
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\usbapi.h
+
+1333282143 c:\codeblocks\ardusim\arduino\variants\standard\pins_arduino.h
+	<ardusim.h>
+	<avr/pgmspace.h>
+
+1333434638 c:\codeblocks\ardusim\arduino\cores\ipaddress.h
+	<Printable.h>
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\print.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"Arduino.h"
+	"Print.h"
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\stream.cpp
+	"Arduino.h"
+	"Stream.h"
+
+1337183312 c:\codeblocks\ardusim\arduino\cores\tone.cpp
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	"Arduino.h"
+	"pins_arduino.h"
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\usbcore.cpp
+	"Platform.h"
+	"USBAPI.h"
+	"USBDesc.h"
+
+1322479932 c:\codeblocks\ardusim\arduino\cores\platform.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	<avr/eeprom.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"Arduino.h"
+	"USBDesc.h"
+	"USBCore.h"
+	"USBAPI.h"
+
+1263081800 c:\codeblocks\ardusim\include\avr\eeprom.h
+	<avr/io.h>
+	<stddef.h>
+	<stdint.h>
+
+1334466226 c:\codeblocks\ardusim\include\util\delay.h
+	<inttypes.h>
+	<util/delay_basic.h>
+	<util/delay.h>
+
+1263081816 c:\codeblocks\ardusim\include\util\delay_basic.h
+	<inttypes.h>
+	<util/delay_basic.h>
+
+1322479932 c:\codeblocks\ardusim\arduino\cores\usbdesc.h
+
+1322479932 c:\codeblocks\ardusim\arduino\cores\usbcore.h
+
+1337183024 c:\codeblocks\ardusim\arduino\cores\winterrupts.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	<stdio.h>
+	"wiring_private.h"
+
+1334466191 c:\codeblocks\ardusim\arduino\cores\wiring_private.h
+	<stdio.h>
+	<stdarg.h>
+	"Arduino.h"
+
+1337182396 c:\codeblocks\ardusim\arduino\cores\wmath.cpp
+	"stdlib.h"
+	<ardusim.h>
+	<sys/time.h>
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\wstring.cpp
+	"WString.h"
+
+1334466537 c:\codeblocks\ardusim\arduino\cores\main.cpp
+	<Arduino.h>
+	<stdio.h>
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\new.cpp
+	<new.h>
+
+1337182439 c:\codeblocks\ardusim\arduino\cores\wiring.c
+	"wiring_private.h"
+	<sys/time.h>
+
+1334572830 c:\codeblocks\ardusim\arduino\cores\wiring_analog.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1333432588 c:\codeblocks\ardusim\arduino\cores\wiring_digital.c
+	"wiring_private.h"
+	"pins_arduino.h"
+	<stdio.h>
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\wiring_pulse.c
+	"wiring_private.h"
+	"pins_arduino.h"
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\wiring_shift.c
+	"wiring_private.h"
+
+1322479932 c:\codeblocks\ardusim\arduino\cores\cdc.cpp
+	"Platform.h"
+	"USBAPI.h"
+	<avr/wdt.h>
+
+1263081814 c:\codeblocks\ardusim\include\avr\wdt.h
+	<avr/io.h>
+	<stdint.h>
+	<stdint.h>
+	<avr/wdt.h>
+
+1322479934 c:\codeblocks\ardusim\arduino\cores\hid.cpp
+	"Platform.h"
+	"USBAPI.h"
+	"USBDesc.h"
+
+1337183284 c:\codeblocks\ardusim\arduino\cores\hardwareserial.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	"Arduino.h"
+	"wiring_private.h"
+	"HardwareSerial.h"
+
